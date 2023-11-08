@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+   	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin: auto;
+	height: 450px;
+}
+
+.contenedor{
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+    padding: 10px;
+	background:#c1c1c1;
+	width: 270px;
+	height: 410px;
+	border-radius: 20px;
+	border: 1px solid black;
+	box-shadow: 7px 7px 2px 1px;
+
+}
+.borde{
+
+	position: absolute;
+	text-align:right;
+	margin: 6px 0 0 0;
+	height: 117px;
+	width: 250px;
+	border: 2px solid blue;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #004;
+
+}
+.pantalla-superior{
+	
+	text-align:right;
+	margin: 8px;
+    height: 56%;
+	width: 235px;
+	background: #004;
+	border: 1px solid blue;
+	border-radius: 10px;
+	font-size: 37px;
+	color:#ffff;
+	overflow-x: hidden;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+
+
+}
+.pantalla-inferior{
+
+	text-align: right;
+	margin: 8px;
+	height: 44%;
+	width: 235px;
+	background: #004;
+	border: 1px solid blue;
+	border-radius: 10px;
+	font-size: 25px;
+	color:#ffff;
+	overflow-x: hidden;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+	justify-content: center;
+	
+
+}
+
+.btn{
+	position: absolute;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	padding: 2px 0px 0px 0px;
+	align-items: center;
+	background: silver;
+	box-sizing: border-box;
+	top: 185px;
+    border-radius: 20px;
+ 	border: 1px solid blue;
+}
+
+
+button{
+	font-size: 24px;
+	margin:6.5px;
+	width: 50px;
+	height: 45px;
+	background: lightblue;
+    border-radius: 20px;
+	box-shadow: 2px 2px 2px 1px black, -2px -2px 0px 0px #0009 ;
+}
+button:active{
+background: rgba(0,0,0,.3);
+}
+#operadores{
+	background: orange;
+}
+#operadores:active{
+background: rgba(0,0,0,.3);
+}
+
+.borrar{
+	background: red;
+	color: #fff;
+}
